@@ -1,0 +1,12 @@
+{
+  "name": "Run CloudPebble",
+  "description": "Press Ctrl(Command) + R",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://cloudpebble.net/ide/project/*"],
+      "js": ["jquery-2.1.4.min.js","jquery.gpkey-0.1.min.js","background.js"]
+    }
+  ]
+}
